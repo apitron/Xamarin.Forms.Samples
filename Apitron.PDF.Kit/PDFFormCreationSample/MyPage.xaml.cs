@@ -57,7 +57,7 @@ namespace PDFFormCreationSample
 			// create section and add text block inside
 			Section section = new Section (){Id="border"};
 
-			//  ios preview doesn't display fields correctly, 
+			//  ios PDF preview doesn't display fields correctly, 
 			//  uncomment this code to use simple text blocks instead of text boxes	  		  
 //			section.Add(new TextBlock(string.Format("First name: {0}",currentEmployee.FirstName)));
 //		    section.Add(new TextBlock(string.Format("Last name: {0}",currentEmployee.LastName)));
