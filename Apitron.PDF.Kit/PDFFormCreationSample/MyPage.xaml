@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="PDFFormCreationSample.MyPage">
-		<StackLayout Orientation="Vertical" Padding="10,20,10,10">
-			<Entry x:Name="firstName" Text="{Binding FirstName, Mode=TwoWay}" Placeholder="Enter employee's first name here"/>
-			<Entry x:Name="lastName" Text="{Binding LastName, Mode=TwoWay}" Placeholder="Enter employee's last name here"/>
-			<Entry x:Name="position" Text="{Binding CurrentPosition, Mode=TwoWay}" Placeholder="Enter employee's position here"/>
-			<Button Text="Save to PDF" Clicked="OnSaveClicked" />	
-		</StackLayout>
-</ContentPage>
